@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LACACA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Panduan</a></li>
+            <li><a href="#">Kategori</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Bantuan</a></li>
+            <li><a href="#">Kontak</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Daftar</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#">LACACA</a></li>
+            <li class="hideOnMobile"><a href="#">Panduan</a></li>
+            <li class="hideOnMobile"><a href="#">Kategori</a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">Bantuan</a></li>
+            <li class="hideOnMobile"><a href="#">Kontak</a></li>
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+            <li class="hideOnMobile"><a href="#">Daftar</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</section>
+
+<section id="header">
+</section>
+
+<section id="hero">
+<h4>Harga turun drastis!!!</h4>
+<h2>Super Duper Murah</h2>
+<h1>Untuk semua produk</h1>
+<p>Raup keuntungan dengan diskop 65% untuk newcomer!!!</p>
+<button>BELI SKRG</button>
+</section>
+
+<section id="feature" class="section-p1">
+    <div class="fe-box">
+    <img src="features/p1.jpeg" alt="" width="152" height="120">
+    <h6 > Gratis Ongkir </h6> 
+     </div>
+
+     <div class="fe-box">
+    <img src="features/2.jpeg" alt="" width="152" height="120">
+    <h6 > Beli Online </h6> 
+     </div>
+
+     <div class="fe-box">
+    <img src="features/3.jpeg" alt="" width="152" height="120">
+    <h6 > Hemat Uang </h6> 
+     </div>
+
+     <div class="fe-box">
+    <img src="features/4.jpeg" alt="" width="152" height="120">
+    <h6 > Promosi </h6> 
+     </div>
+
+     <div class="fe-box">
+    <img src="features/5.jpeg" alt="" width="152" height="120">
+    <h6 > Jual Gampang </h6> 
+     </div>
+
+     <div class="fe-box">
+    <img src="features/6.jpeg" alt="" width="152" height="120">
+    <h6 > Layanan 24/7</h6> 
+     </div>
+</section>
+
+<section id="product1" class="section-p1">
+    <h2>Produk Unggulan</h2>
+    <p>Koleksi Musim Panas New</p>
+<div class="pro-container">
+    <div class="pro">
+    <img src="products/1.jpeg" alt="">
+    <div class="des">
+        <span>Mousepad</span>
+        <h5>Zoro Tiduran</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+    <a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div>
+     <div class="pro">
+    <img src="products/2.jpeg" alt="">
+    <div class="des">
+        <span>Gantungan Kunci</span>
+        <h5>Isagi bluelock</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+    <a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div> <div class="pro">
+    <img src="products/3.jpeg" alt="">
+    <div class="des">
+        <span>Pin</span>
+        <h5>Chainsaw man</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+<a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div> <div class="pro">
+    <img src="products/4.jpeg" alt="">
+    <div class="des">
+        <span>Plushie</span>
+        <h5>Light yagami</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+<a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div> <div class="pro">
+    <img src="products/5.jpeg" alt="">
+    <div class="des">
+        <span>Cosplay</span>
+        <h5>Gothic dress</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+<a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div> <div class="pro">
+    <img src="products/6.jpeg" alt="">
+    <div class="des">
+        <span>Figure</span>
+        <h5>Higurashi</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+<a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div> <div class="pro">
+    <img src="products/7.jpeg" alt="">
+    <div class="des">
+        <span>Sticker</span>
+        <h5>Naruto</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+<a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div> <div class="pro">
+    <img src="products/8.jpeg" alt="">
+    <div class="des">
+        <span>Wig</span>
+        <h5>Cosplay</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h4>$67</h4>
+    </div>
+<a href="checkout.html"><i class="fas fa-shopping-cart cart"></i></a>
+    </div>
+</div>
+</section>
+
+<section id="newsletter" class="section-p1">
+    <div class="newstext">
+        <h4>Sile sign up utk notification</h4>
+        <p>Dapatkan email update tentang produk baru dan <span> produk spesial.</span>
+        </p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal"> Sign up</button>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <h3>LACACA</h3>
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Malang, Jawa Timur</p>
+        <p><strong>Phone:</strong> +62 812-3456-7890</p>
+        <p><strong>Hours:</strong> 08:00 - 20:00</p>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">Wishlist</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="app/3.png" alt="">
+            <img src="app/2.png" alt="">
+        </div>
+        <p>Secured Payment</p>
+        <img src="app/4.jpeg" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>© 2026, LACACA Ecommerce</p>
+    </div>
+</footer>
+
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

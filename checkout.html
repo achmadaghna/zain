@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - LACACA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="checkout-nav">
+    <a href="index.html">← Kembali ke Shop</a>
+    <h2>LACACA Checkout</h2>
+</nav>
+
+<section class="checkout-page section-p1">
+
+    <div class="checkout-wrapper">
+
+        <div class="customer-form">
+            <h3>📦 Data Pengiriman</h3>
+
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama">
+
+            <label>Nomor HP</label>
+            <input type="text" placeholder="08xxxxxxxxxx">
+
+            <label>Alamat</label>
+            <textarea placeholder="Masukkan alamat lengkap"></textarea>
+
+            <label>Metode Pembayaran</label>
+            <select>
+                <option>Transfer Bank</option>
+                <option>E-Wallet</option>
+                <option>COD</option>
+            </select>
+        </div>
+
+
+        <div class="order-box">
+            <h3>🛒 Ringkasan Pesanan</h3>
+
+            <div class="product-checkout">
+                <img src="products/1.jpeg">
+                <div>
+                    <h4>Zoro Tiduran</h4>
+                    <p>Qty: 1</p>
+                </div>
+                <span>$67</span>
+            </div>
+
+            <hr>
+
+            <div class="price-row">
+                <span>Subtotal</span>
+                <span>$67</span>
+            </div>
+
+            <div class="price-row">
+                <span>Ongkir</span>
+                <span>$5</span>
+            </div>
+
+            <div class="price-row total-row">
+                <span>Total</span>
+                <span>$72</span>
+            </div>
+
+            <button class="pay-btn">
+                Checkout Sekarang
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
